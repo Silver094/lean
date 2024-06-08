@@ -1,0 +1,39 @@
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.menu-item { 
+  display: flex;
+  gap: 10px;
+  background-color: transparent;
+  color: black;
+  align-items: center;
+  width: 256px;
+  justify-content: flex-end;
+  border: none;
+}
+.menu-item span {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(204, 204, 204, 1);
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.menu-item img {
+  background-color: white;
+  box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+}

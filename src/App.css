@@ -1,0 +1,53 @@
+.App-header {
+  background-color: #000;
+}
+.App-button button {
+  background-color: inherit;
+  color: white;
+  border: #000;
+  font-size: x-large;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.App-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  row-gap: 0%;
+}
+.drpdwn {
+  background: var(--Main-White, rgba(248, 248, 248, 1));
+  color: black;
+  padding: 16px; /* Padding inside the button */
+  font-size: 16px; /* Font size */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+  background-size:inherit;
+  font-weight: 500;
+}
+.Answer {
+  display: inline-flex;
+  column-gap: 62%;
+  width:832px;
+  margin: 0% 0% 0% 0%;
+  /* padding:0px 0px 0px 0px; */
+}
+.Answer h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+
+  color: rgba(248, 248, 248, 1);
+}
+.Answer h3 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  text-align: left;
+  color: var(--Main-White, rgba(248, 248, 248, 1));
+}

@@ -1,0 +1,47 @@
+.text-container {
+    color: white;
+    font-family: Montserrat,Arial, sans-serif;
+    padding: 10px;
+    display: inline-block;
+    font-stretch:wider;
+}
+.highlight {
+    background-color: white;
+    color: #0F0F0F;
+    padding: 2px;
+}
+.head{
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+    height: 122px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
+
+
+}
+.dropbtn {
+    background-color: #0F0F0F;
+    color: #FEFEFE80;
+    opacity: 50%;
+    font-size: x-large;
+    margin-inline: 10px;
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+}
+.right{
+    display: flex;
+    
+}
+img{
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
