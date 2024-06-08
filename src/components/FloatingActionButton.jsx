@@ -11,7 +11,7 @@ function FloatingActionButton ({ icon, children }) {
   return (
     <div className="fab-container">
       <button className="fab-button" onClick={toggleMenu}>
-        {icon}
+        <img src={icon} alt="help" />
       </button>
       {isOpen && <div className="fab-menu">{children}</div>}
     </div>

@@ -4,6 +4,7 @@ import Head from "./components/Head";
 import QuestionComponent from "./components/QuestionComponent";
 import DropdownMenu from './components/DropdownMenu';
 import FloatingActionButton from "./components/FloatingActionButton";
+import floatClosed from "./assets/floatClosed.png"
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         </div>
         <AnswerComponent />
       </div>
-      <FloatingActionButton icon="X">
+      <FloatingActionButton icon={floatClosed}>
       <DropdownMenu />
       </FloatingActionButton>
     </div>

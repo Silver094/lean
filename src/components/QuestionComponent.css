@@ -1,9 +1,4 @@
 .question-container {
-    /* background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin-bottom: 20px; */
     font-family: Poppins;
     background: var(--Main-White, rgba(248, 248, 248, 1));
     border: 0.4px solid rgba(113, 113, 113, 1);

@@ -1,26 +1,26 @@
 .fab-container {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-  }
-  
-  .fab-button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .fab-menu {
-    position: absolute;
-    bottom: 70px;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.fab-button {
+  box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+}
+.fab-button img{
+  width: 60px;
+  height: 60px;
+}
+
+.fab-menu {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
