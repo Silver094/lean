@@ -25,7 +25,7 @@ function App() {
         </div>
         <AnswerComponent />
       </div>
-      <FloatingActionButton icon={floatClosed}>
+      <FloatingActionButton>
       <DropdownMenu />
       </FloatingActionButton>
     </div>
