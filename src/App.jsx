@@ -5,6 +5,10 @@ import QuestionComponent from "./components/QuestionComponent";
 import DropdownMenu from './components/DropdownMenu';
 import FloatingActionButton from "./components/FloatingActionButton";
 import floatClosed from "./assets/floatClosed.png"
+import IssueForm from "./components/float/IssueForm";
+import Share from "./components/float/Share";
+import Suggestion from "./components/float/Suggestion";
+import Contactus from "./components/float/Contactus";
 
 function App() {
   return (
@@ -28,6 +32,10 @@ function App() {
       <FloatingActionButton>
       <DropdownMenu />
       </FloatingActionButton>
+      {/* <IssueForm /> */}
+      {/* <Share/> */}
+      {/* <Suggestion/> */}
+      <Contactus />
     </div>
   );
 }
