@@ -28,7 +28,6 @@ const FloatingActionButton = () => {
 
   const closeForm = () => {
     setSelectedForm(null);
-    // toggleMenu();
     setMenuOpen(false); // Close the menu and reset selection
   };
 

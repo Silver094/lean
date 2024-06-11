@@ -1,4 +1,3 @@
-// src/Suggestion.js
 import React, { useState } from "react";
 import "./Suggestion.css";
 
@@ -13,7 +12,6 @@ const Suggestion = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Handle form submission logic here
     console.log({ section, description, file });
   };
 
@@ -29,7 +27,6 @@ const Suggestion = () => {
           onChange={(e) => setSection(e.target.value)}
         >
           <option value="">Select</option>
-          {/* Add more options as needed */}
         </select>
         <label htmlFor="description">Describe the suggestion in detail *</label>
         <textarea

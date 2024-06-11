@@ -1,7 +1,3 @@
-.App-header {
-  background-color: #000;
-}
-
 .App-button button {
   background-color: inherit;
   color: white;
@@ -16,7 +12,6 @@
   flex-direction: column;
   align-items: center;
   margin-top: 2%;
-  row-gap: 0%;
 }
 
 .drpdwn {
@@ -56,86 +51,18 @@
   text-align: left;
   color: var(--Main-White, rgba(248, 248, 248, 1));
 }
-
-.question-container {
-  font-family: Poppins;
-  background: var(--Main-White, rgba(248, 248, 248, 1));
-  border: 0.4px solid rgba(113, 113, 113, 1);
-  width: 100%;
-  max-width: 832px;
-  box-shadow: 8px 8px 25px 0px rgba(0, 0, 0, 0.5);
-  padding: 32px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 15px;
-  border-radius: 6px;
-}
-
-.tags {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-
-.tag {
-  background-color: rgba(169, 217, 255, 1);
-  padding: 5px 10px;
-  border-radius: 4px;
-  font-family: Inter;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 24.2px;
-  text-align: left;
-}
-
-.question-content span {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 30px;
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.question-content p {
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 27px;
-  text-align: left;
-}
-
-.question-meta {
-  display: flex;
-  justify-content: space-between;
-  font-size: 14px;
-  color: rgba(42, 42, 42, 1);
-  margin-top: 10px;
-}
-
 @media (max-width: 768px) {
   .App-button button {
-      margin-left: 20px;
-      font-size: large;
+    margin-left: 20px;
+    font-size: large;
   }
   .Answer {
-      column-gap: 5%;
+    column-gap: 5%;
   }
   .Answer h2 {
-      font-size: 20px;
+    font-size: 20px;
   }
   .Answer h3 {
-      font-size: 16px;
-  }
-  .question-container {
-      padding: 20px;
-  }
-  .question-content span {
-      font-size: 18px;
-  }
-  .question-content p {
-      font-size: 16px;
-  }
-  .tags {
-      flex-wrap: wrap;
+    font-size: 16px;
   }
 }
